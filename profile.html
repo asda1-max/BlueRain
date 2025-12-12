@@ -1,0 +1,187 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/basic-component.css">
+  <link rel="stylesheet" href="./css/decoration.css">
+  <link rel="stylesheet" href="./css/fonts.css">
+  <link rel="stylesheet" href="./css/basic-animation.css">
+  <link rel="stylesheet" href="./css/custom-animation.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+
+</head>
+
+<body class="primaryBackgroundColor">
+
+  <!-- Navbar -->
+  <nav class="v-navbar inter-Font" id="navbar">
+
+    <svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+      style="position:absolute; top : 40px; right :-1px; cursor:pointer" id="navbarActivator" class="nav-button">
+      <rect x="10" y="6" width="16" height="2" rx="1.5" />
+      <rect x="10" y="12.5" width="16" height="2" rx="1.5" />
+      <rect x="10" y="19" width="16" height="2" rx="1.5" />
+    </svg>
+
+
+    <img src="./assets/logo/azerothsitelogo.png" alt="logo" width="100" height="45" style="margin-left: 8px;">
+
+    <ul>
+      <li class="">
+        <a href="index.html" style=" all: unset;">
+        <p>Home</p>
+        </a>
+      </li>
+      <div class="li-cur">
+        <a href="#" style=" all: unset;">
+        <p>Profile</p>
+        </a>
+      </div>
+      <li>
+        <a href="projectshub.html" style=" all: unset;">
+        <p>Projects</p>
+        </a>
+      </li>
+      <li>
+        <p>Track Record</p>
+      </li>
+      <li>
+        <a href="#" style=" all: unset;">
+        <p>Projects</p>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <!-- Navbar End -->
+
+
+  <!-- Main Section -->
+  <div class="main-content mainBackground roundedBackground animate__slideInDown">
+    <div class="container">
+      <h1 class="inter-Font-Bold fontColorMain" style="scale: 1.2;">
+        <center>
+          Profile
+        </center>
+      </h1>
+    </div>
+  </div>
+
+  <div class="main-content ">
+    <div class="container">
+      <div class="g-container">
+        <div class="g-box-prof mainBackground roundedBackground inter-Font fontColorMain animate__slideInLeft"
+          style="display: flex; flex-direction: column; ; justify-content: center; ">
+          <center>
+          <img src="./assets/img/20250727_123725.jpg" alt="gweh"
+            width="200" height="180" style="border: 1px solid rgb(210, 183, 30); border-radius: 3px; transform: none; margin-top: 20px;">
+          <br>
+          <h2>Rakha "Azeroth" T.F.A</h2>
+          <p>Computer Science Student</p>
+          </center>
+          <div style="display: flex; flex-direction: column; row-gap: 10px; padding: 20px;">
+            <a href="https://github.com/asda1-max" target="_blank" style="text-decoration: none;">
+              <p class="textChangeColor">
+              <i class="fab fa-github textChangeColor" style="scale: 3; padding-right: 15px; margin-left: 30px;"></i>
+              Github
+              </p>
+            </a>
+            <br>
+            <a href="https://youtube.com/yourchannel" target="_blank" style="text-decoration: none;">
+              <p class="textChangeColor">
+              <i class="fab fa-youtube textChangeColor" style="scale: 3; padding-right: 15px; margin-left: 30px;"></i>
+              Youtube
+              </p>
+            </a>
+            <br>
+            <a href="mailto:rakhathrd1314@gmail.com" style="text-decoration: none;">
+              <p class="textChangeColor">
+              <i class="fas fa-envelope" style="scale: 3; padding-right: 15px; margin-left: 30px;"></i>
+              Mail Me!
+              </p>
+            </a>
+          </div>
+        </div>
+        
+        <div class="g-box-bio mainBackground roundedBackground inter-Font fontColorMain animate__slideInRight">
+        <h1>About me</h1>
+        <hr style="border: 3px solid rgb(210, 183, 30); border-radius: 2px;">
+        <h4>A Computer Science Student in Universitas Pembangunan Nasional "Veteran" Yogyakarta - an Engineer who loves to code, create, and bring new ideas to life  </h4>
+        <p>
+          "Since I was a child, I’ve been deeply in love with the idea of creating and inventing. It all began when I discovered a game called Minecraft — a limitless world where I could build anything that came to my mind. No gravity, no physical limitations, only imagination as the one true boundary. From that point on, I became obsessed with making new things, especially in the digital world. There, I feel truly free — free to create, to experiment, and to dream — because in the digital realm, creativity is the only law."
+        </p>
+        
+        <div class="container" style="margin-top: 40px; background-color: rgb(40, 21, 87); border-radius: 10px;">
+          <div class="pro-container" style=" border-radius: 10px;">
+            <div class="pro-grid-1 ">
+
+              <h1>Things I'm interested in :</h1>
+              <hr style="border: 3px solid rgb(210, 183, 30); border-radius: 2px;">
+              <img src="https://img.shields.io/badge/c-%2300599C.svg?style=flat&logo=c&logoColor=white"/>
+              <img src="https://img.shields.io/badge/c++-%2300599C.svg?style=flat&logo=c%2B%2B&logoColor=white"/>
+              <img src="https://img.shields.io/badge/dart-%230175C2.svg?style=flat&logo=dart&logoColor=white"/>
+              <img src="https://img.shields.io/badge/php-%23777BB4.svg?style=flat&logo=php&logoColor=white"/>
+              <img src="https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54"/>
+              <img src="https://img.shields.io/badge/firebase-%23039BE5.svg?style=flat&logo=firebase"/>
+              <img src="https://img.shields.io/badge/.NET-5C2D91?style=flat&logo=.net&logoColor=white"/>
+              <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=flat&logo=express&logoColor=%2361DAFB"/>
+              <img src="https://img.shields.io/badge/mysql-4479A1.svg?style=flat&logo=mysql&logoColor=white"/>
+              <img src="https://img.shields.io/badge/blender-%23F5792A.svg?style=flat&logo=blender&logoColor=white"/>
+              <img src="https://img.shields.io/badge/git-%23F05033.svg?style=flat&logo=git&logoColor=white"/>
+              <img src="https://img.shields.io/badge/GODOT-%23FFFFFF.svg?style=flat&logo=godot-engine"/>
+              <img src="https://img.shields.io/badge/AMD-%23000000.svg?style=flat&logo=amd&logoColor=white"/>
+              <img src="https://img.shields.io/badge/Adobe%20After%20Effects-9999FF.svg?style=flat&logo=Adobe%20After%20Effects&logoColor=white"/>
+              <img src="https://img.shields.io/badge/adobe%20illustrator-%23FF9A00.svg?style=flat&logo=adobe%20illustrator&logoColor=white"/>
+              <img src="https://img.shields.io/badge/Adobe%20Lightroom-31A8FF.svg?style=flat&logo=Adobe%20Lightroom&logoColor=white"/>
+              <img src="https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=flat&logo=adobe%20photoshop&logoColor=white"/>
+              <img src="https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF.svg?style=flat&logo=Adobe%20Premiere%20Pro&logoColor=white"/>
+
+            </div>
+
+            <div class="pro-grid-2">
+              <h1>Other Things I'm interested in :</h1>
+              <hr style="border: 3px solid rgb(210, 183, 30); border-radius: 2px;">
+              <h4>-Drawing <br> -Playing Music <br> -Electric Engineering</h4>
+            </div>
+          </div>
+        </div>
+
+        <br>
+        <br>
+        
+        <center><h3>“Non Omnis Moriar”</h3><p>I'm not completely gone... after i dies</p></center>
+        </div>
+
+      </div>
+    </div>
+  </div>
+        
+  <!-- Main Section End-->
+
+  <script>
+    const toggleB = document.getElementById("navbarActivator")
+    const navbar = document.getElementById("navbar")
+
+    toggleB.addEventListener("click", () => {
+      navbar.classList.toggle("showNavbar")
+
+    });
+
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+.primaryBackgroundColor{
+    background-color: rgb(39, 38, 75);
+    
+}
+
+.mirrorBackground{
+    background-color: rgba(240, 248, 255, 0.11);
+    border-radius: 10px;
+}
+
+.mainBackground{
+    background-color: rgba(26,9,66);
+    transition: 0.4s ease-in-out;
+}
+
+.roundedBackground{
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(31, 31, 30, 0);
+}
+
+.roundedBackground:hover{
+    box-shadow: 0 0px 30px rgba(154, 1, 243, 0.733);
+    scale: 1.01;
+    transition: 0.4s ease-in-out;
+}
+
+.roundedBackground2{
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid rgb(210, 183, 30);
+    box-shadow: 0 10px 30px rgba(55, 17, 143, 0);
+}
+
+.roundedBackground2:hover{
+    box-shadow: 0 0px 30px rgba(243, 178, 1, 0.733);
+    scale: 1.01;
+    transition: 0.4s ease-in-out;
+}
+
+.fontColorMain{
+    color: rgb(210, 183, 30);
+}
+
+.textChangeColor:hover{
+    color: rgb(210, 147, 30);
+    transition: color 0.2s ease-in-out;
+}
+
+.textChangeColor{
+    color: rgb(210, 183, 30);
+    transition:  0.2s ease-in-out;
+}
+

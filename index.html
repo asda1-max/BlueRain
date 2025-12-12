@@ -1,0 +1,191 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/basic-component.css">
+  <link rel="stylesheet" href="./css/decoration.css">
+  <link rel="stylesheet" href="./css/fonts.css">
+  <link rel="stylesheet" href="./css/basic-animation.css">
+  <link rel="stylesheet" href="./css/custom-animation.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+
+</head>
+
+<body class="primaryBackgroundColor">
+
+  <!-- Navbar -->
+  <nav class="v-navbar inter-Font" id="navbar">
+
+    <svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+      style="position:absolute; top : 40px; right :-1px; cursor:pointer" id="navbarActivator" class="nav-button">
+      <rect x="10" y="6" width="16" height="2" rx="1.5" />
+      <rect x="10" y="12.5" width="16" height="2" rx="1.5" />
+      <rect x="10" y="19" width="16" height="2" rx="1.5" />
+    </svg>
+
+
+    <img src="./assets/logo/azerothsitelogo.png" alt="logo" width="100" height="45" style="margin-left: 8px;">
+
+    <ul>
+      <div class="li-cur">
+        <p>Home</p>
+      </div>
+      <li>
+        <a href="profile.html" style=" all: unset;">
+        <p>Profiles</p>
+        </a>
+      </li>
+      <li>
+        <a href="projectshub.html" style=" all: unset;">
+        <p>Projects</p>
+        </a>
+      </li>
+      <li>
+        <a href="trackrecord.html" style=" all: unset;">
+        <p>Track Record</p>
+        </a>
+      </li>
+      <li>
+        <a href="bloghub.html" style=" all: unset;">
+        <p>Blog</p>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <!-- Navbar End -->
+
+
+  <!-- Main Section -->
+  <div class="main-content mainBackground roundedBackground animate__slideInDown">
+    <div class="container">
+      <h1 class="inter-Font-Bold fontColorMain" style="scale: 1.2;">
+        <center>
+          WELCOME!
+        </center>
+      </h1>
+    </div>
+  </div>
+
+  <div class="main-content ">
+    <div class="container">
+      <div class="g-container">
+        <div class="g-box-1 mainBackground roundedBackground inter-Font fontColorMain animate__slideInLeft"
+          style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
+          <img src="https://media.tenor.com/Vb2zMKF0qxMAAAAM/hina-blue-archive.gif" alt="myIstri"
+            class="roundedBackground2" width="200" height="132" style="border: 6px solid rgb(210, 183, 30); background-color: rgba(182, 156, 7, 0.315);">
+          <br>
+          <h2>Welcome to my Website!</h2>
+          <p>Welcome to my realm, Friends!</p>
+        </div>
+        <div class="g-box-2 mainBackground roundedBackground inter-Font fontColorMain animate__slideInRight">
+          <h1>Why i make this website?</h1>
+          <hr style="border: 3px solid rgb(210, 183, 30); border-radius: 2px;">
+          <p>
+            Honestly, I created this website simply out of boredom, lol. But more than that, I hope it can become a
+            space for communication between me, as the writer, and you, the reader.
+            I also hope the projects shared here can be helpful or even serve as inspiration for your own future
+            creations.
+
+            <br><br>
+            anyway, thanks for stopping by~
+          </p>
+
+        </div>
+        <div class="g-box-3 mainBackground roundedBackground inter-Font fontColorMain animate__slideInLeft">
+          <h1>Check out my latest project!</h1>
+          <hr style="border: 3px solid rgb(210, 183, 30); border-radius: 2px;">
+          <br>
+          <h4>Salvation App - Your Finance Savior</h4>
+          <a href="https://github.com/asda1-max/salvationv2" class="fontColorMain" style="text-decoration:none;">
+            <p class="roundedBackground2">
+              Press Here ! , or you can use the link : https://github.com/asda1-max/salvationv2
+            </p>
+          </a>
+          <br>
+          <p>or you wanted to check out my other projects? click <a href="#" class="textChangeColor"
+              style="font-weight: 500;">Here</a></p>
+
+        </div>
+        <div class="g-box-4 mainBackground roundedBackground inter-Font fontColorMain animate__slideInRight">
+          <h1>Let's Talk?</h1>
+          <hr style="border: 3px solid rgb(210, 183, 30); border-radius: 2px;">
+          
+          <div style="display: flex; flex-direction: column; row-gap: 10px; padding: 20px;">
+            <a href="https://github.com/asda1-max" target="_blank" style="text-decoration: none;">
+              <p class="textChangeColor">
+              <i class="fab fa-github textChangeColor" style="scale: 3; padding-right: 15px; margin-left: 30px;"></i>
+              asda1-max
+              </p>
+            </a>
+            <br>
+            <a href="https://youtube.com/yourchannel" target="_blank" style="text-decoration: none;">
+              <p class="textChangeColor">
+              <i class="fab fa-youtube textChangeColor" style="scale: 3; padding-right: 15px; margin-left: 30px;"></i>
+              Azeroth Channel
+              </p>
+            </a>
+            <br>
+            <a href="mailto:rakhathrd1314@gmail.com" style="text-decoration: none;">
+              <p class="textChangeColor">
+              <i class="fas fa-envelope" style="scale: 3; padding-right: 15px; margin-left: 30px;"></i>
+              Mail Me!
+              </p>
+            </a>
+          </div>
+
+          <hr style="border: 3px solid rgb(210, 183, 30); border-radius: 2px;">
+          
+          <center>
+            <img src="https://media.tenor.com/KwyOcA00uecAAAAj/blue-archive-bluesechi.gif" alt="logogweh" style="margin-top: 70px;">
+          </center>
+
+        </div>
+        <div class="g-box-5 mainBackground roundedBackground inter-Font fontColorMain animate__slideInRight">
+          <h1>Wanna know more about Me?</h1>
+          <hr style="border: 3px solid rgb(210, 183, 30); border-radius: 2px;">
+          <br>
+          <p>Visit my Profile here !</p>
+          <a href="https://github.com/asda1-max/salvationv2" class="fontColorMain" style="text-decoration:none;">
+            <p class="roundedBackground2">
+              Profile
+            </p>
+          </a>
+        </div>
+        <div class="g-box-6 mainBackground roundedBackground inter-Font fontColorMain animate__slideInLeft">
+          <h1 style="margin-top: 100px;">&copy; 2025 Rakha T. F. Aziz — All Rights Reserved.</h1>
+          <h2>Yes, the developer is a bum. But at least the site works.</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+        
+  <!-- Main Section End-->
+
+  <script>
+    const toggleB = document.getElementById("navbarActivator")
+    const navbar = document.getElementById("navbar")
+
+    toggleB.addEventListener("click", () => {
+      navbar.classList.toggle("showNavbar")
+
+    });
+
+  </script>
+
+</body>
+
+</html>
